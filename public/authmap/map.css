@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+/*    background: #ECEAE0;*/
+/*
+#221E1D
+#ECEAE0
+#63AA9C
+#E9633B*/
+}
+
+h1, h2, h3, h4, h5, p {
+    margin-top: 0;
+    padding-top: 0.5em;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 75%;
+    min-height: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: -1.2em;
+    margin-left: auto;
+    margin-right: auto;
+/*    background: #ECEAE0;*/
+}
+
+#map-canvas {
+    height: 70%;
+}
+
+.container:after {
+    content: "";
+    display: block;
+}
+
+.footer, .container:after {
+    height: 1em;
+}
+
+.footer {
+/*    text-align: right;*/
+    width: 100%;
+    height: 1.2em;
+    padding: 0;
+}
+
+.footer > p {
+    padding: 0 0.5em;
+    margin: 0;
+    font-size: 0.75em;
+    font-style: italic;
+    color: #777;
+}
+
+.footer > #timestamp {
+    float: left;
+}
+
+.footer > #thanks {
+    float: right;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "authmap",
+  "version": "1.0.0",
+  "description": "An interactive map of failed server login attempts",
+  "scripts": {
+    "start": "nodejs ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.0.0",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "jade": "~1.3.0",
+    "logfailmap": "~1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwpenny/authmap.git"
+  },
+  "keywords": [
+    "linux",
+    "auth",
+    "server",
+    "login",
+    "fail",
+    "geo",
+    "location",
+    "map",
+    "tracking"
+  ],
+  "author": "Matt Penny <pennycreations@gmail.com> (http://www.github.com/mwpenny)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwpenny/authmap/issues"
+  },
+  "homepage": "https://github.com/mwpenny/authmap"
+}

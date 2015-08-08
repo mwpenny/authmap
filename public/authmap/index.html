@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>AuthMap</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src="map.js"/></script>
+        <link rel="stylesheet" type="text/css" href="map.css"/>
+        </head>
+    <body>
+        <div class="container">
+            <h1>Failed SSH server login locations</h1>
+            <div id="map-canvas"></div>            
+            <p>
+                I noticed a lot of failed SSH logins from different IPs in my server logs. Some attempted to connect hundreds times (probably part of a botnet). I thought I'd visualize the data.
+                <br><br>
+                You can click on a pin for more information about a host.
+            </p>
+        </div>
+        <div class="footer">
+            <p id="timestamp"></p>
+            <p id="thanks">IP geographical data provided by <a href="//telize.com">Telize</a></p>
+        </div>
+    </body>
+</html>
+

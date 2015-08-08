@@ -1,0 +1,18 @@
+html
+  body
+    h4= title
+    b IP: 
+    |#{geodata.ip}
+      
+    br
+    b ISP: 
+    |#{geodata.isp}
+      
+    br
+    b Login attempts: 
+    |#{geodata.attempts}
+
+    br
+    b Location: 
+    |#{geodata.latitude}, #{geodata.longitude}
+
