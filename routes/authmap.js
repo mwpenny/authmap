@@ -10,9 +10,8 @@ router.get('/authmap/attempts', function(req, res) {
     fs.readFile("config/attempts.json", "utf-8", function(err, data) {
         if (err) console.log("Could not initialize attempts object. Make sure attempts.json exists!");
         else attempts = data;
+        res.send(JSON.stringify(attempts));
     });
-    
-    res.send(JSON.stringify(attempts));
 });
 
 router.get('/authmap/pin', function(req, res) {
