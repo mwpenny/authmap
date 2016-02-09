@@ -21,8 +21,8 @@ router.get('/authmap/pin', function(req, res) {
     Assume more broad information is available (i.e., country) if
     more specific (i.e., city) is available */
   if (req.query.city) title += req.query.city + ", ";
-  if (req.query.region) title += req.query.region + ", ";
-  if (req.query.country) title += req.query.country;  
+  if (req.query.region_name) title += req.query.region_name + ", ";
+  if (req.query.country_name) title += req.query.country_name;
   if (title == "") title = req.query.ip; //Fall back to IP
 
   res.render('pin', { title: title, geodata: req.query } );
