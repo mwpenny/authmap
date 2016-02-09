@@ -1,6 +1,6 @@
 {
   "name": "authmap",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "An interactive map of failed server login attempts",
   "scripts": {
     "start": "nodejs ./bin/www"
