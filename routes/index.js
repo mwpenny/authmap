@@ -3,7 +3,7 @@ var fs = require('fs');
 
 var router = express.Router();
 
-router.get('/authmap/attempts', function(req, res) {
+router.get('/attempts', function(req, res) {
     var attempts = {};
     
     //Send failed attempts
@@ -14,7 +14,7 @@ router.get('/authmap/attempts', function(req, res) {
     });
 });
 
-router.get('/authmap/pin', function(req, res) {
+router.get('/pin', function(req, res) {
   var title = "";
   
   /*Construct title
