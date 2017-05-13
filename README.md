@@ -9,7 +9,6 @@ An interactive map of failed server login attempts as seen [here](http://mattp.c
 ### Dependencies
 * [node.js](http://github.com/joyent/node) - evented I/O for the backend
 * [express](http://github.com/strongloop/express) - web framework for node
-* [morgan](http://github.com/expressjs/morgan) - HTTPS request logger for node.js
 * [jade](http://github.com/jadejs/jade) - HTML template engine
 * [logfailmap](http://github.com/mwpenny/logfailmap) - failed login IP geolocator
 
