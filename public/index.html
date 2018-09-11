@@ -1,11 +1,14 @@
 <html>
     <head>
         <title>AuthMap</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
-        <script src="map.js"/></script>
+
         <link rel="stylesheet" type="text/css" href="map.css"/>
-        </head>
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+        <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+        <script src="map.js"></script>
+    </head>
     <body>
         <div class="container">
             <h1>Failed SSH server login locations</h1>
@@ -18,7 +21,7 @@
         </div>
         <div class="footer">
             <p id="timestamp"></p>
-            <p id="thanks">IP geographical data provided by <a href="//freegeoip.net">FreeGeoIP</a></p>
+            <p id="thanks">IP geographical data provided by <a href="//ipstack.com">ipstack</a></p>
         </div>
     </body>
 </html>

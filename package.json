@@ -1,6 +1,6 @@
 {
   "name": "authmap",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "An interactive map of failed server login attempts",
   "scripts": {
     "start": "nodejs ./bin/www"
@@ -8,7 +8,7 @@
   "dependencies": {
     "express": "~4.0.0",
     "jade": "~1.3.0",
-    "logfailmap": "~3.0.0"
+    "logfailmap": "~4.0.0"
   },
   "repository": {
     "type": "git",
