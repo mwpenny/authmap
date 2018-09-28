@@ -84,6 +84,7 @@ var getAttempts = function(numIPs, offset) {
         var end = start + PIN_LOAD_CHUNK_SIZE;
         $.getJSON("attempts?start=" + start + "&end=" + end, function(attempts) {
             var d = new Date(attempts.date);
+            d.setMonth(d.getMonth() - 1);
             $(".footer > #timestamp").text("Failed logins for " + MONTHS[d.getMonth()] + " " + d.getFullYear());
 
             $.each(attempts.connections, function(key, val) {

@@ -2,7 +2,6 @@
 var logfailmap = require('logfailmap');
 var fs = require('fs');
 
-// w4hrwrsu@cd.mintemail.com
 var API_KEY = JSON.parse(fs.readFileSync('apikey.json')).apikey;
 
 //Cache failed login information
